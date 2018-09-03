@@ -29620,7 +29620,7 @@ fi
 with_ltdl='yes'
 have_ltdl='no'
 LTDL_LIBS=''
-if test "$build_modules" != 'no' || test "X$ax_cv_check_cl_libcl" != Xno; then
+if test "$build_modules" != 'no' && test "X$ax_cv_check_cl_libcl" != Xno; then
   { $as_echo "$as_me:${as_lineno-$LINENO}: result: -------------------------------------------------------------" >&5
 $as_echo "-------------------------------------------------------------" >&6; }
   { $as_echo "$as_me:${as_lineno-$LINENO}: checking for libltdl" >&5
